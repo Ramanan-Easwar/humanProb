@@ -4,6 +4,6 @@ A Recurrent Neural Net that returns a list of probabilities that whether the giv
 Here, the output is of the ndjson format. It is the OpenPose's COCO Pose format in the form of JSON file. Each of the reading has an x-coordinate, y-coordinate and the probability of the prediction, i.e. [x,y, p(x,y)]. To know more about the OpenPose output format, refer: https://github.com/CMU-Perceptual-Computing-Lab/openpose/
 
 # Requirements:
-    -Tensorflow-GPU 2.0
-    -CUDA (Nvidia GPU)
+    Tensorflow-GPU 2.0
+    CUDA (Nvidia GPU)
     
